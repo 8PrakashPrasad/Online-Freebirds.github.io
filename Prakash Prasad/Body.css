@@ -1,0 +1,43 @@
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+.bodyview{
+    display:flex;
+    background-color: rgb(185, 174, 174);
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.grid{
+  display: grid;
+  max-height: auto;
+  margin-top: 50px;
+  width: 114em;
+  grid-gap: 6rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  align-items: start;
+}
+.grid-item{
+  background-color: #fff;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card-img{
+  display: block;
+  width: 100%;
+  height: 350px;
+}
+.card-content{
+  padding: 3rem;
+}
+.card-text{
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
