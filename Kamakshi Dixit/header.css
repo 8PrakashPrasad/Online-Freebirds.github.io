@@ -49,13 +49,13 @@ header .container2{
 
     background-image: url('life.jpg');
     background-repeat: no-repeat;
-    
+    width:100%
     background-size: cover;
     padding: 3cm;
     margin: .1cm;
     text-align:left;
     font-size:20px;
-    color:rgb(34, 13, 224)
+    color:rgb(34, 13, 224);
 }
 header .headerfoot{
     text-align: center;
