@@ -1,0 +1,112 @@
+/* FOOTER */
+.footer{
+    background:rgb(27, 1, 7);
+    color: rgb(216, 205, 208);
+    height: 400px;
+    position: relative;
+}
+
+.footer .footer-bottom{
+    background:rgb(59, 42, 45);
+    color: rgb(138, 128, 130);
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+/* Give a minimum height of 100% to html and body to push the header to the bottom */
+
+.footer .footer-content .contact-form .text-input {
+    background:rgb(221, 230, 230);
+    color:rgb(216, 205, 208);
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    padding: 0.9rem 1.4rem;
+    border:none;
+    display: block;
+}
+
+.footer .footer-content .contact-form .text-input:focus{
+     background: rgb(15, 43, 43);
+     border:rosybrown;
+     border-radius: none;
+}
+
+.btn {
+    padding: none;
+    color: rgb(128, 17, 17);
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.btn:hover{
+    color:black;
+    background:rgb(224, 164, 85);
+    transitions: all 0.5s;
+}
+
+.footer .footer-content{
+    height: 350px;
+    display: flex;
+    border: 1px solid white;
+}
+
+.footer .footer-content .footer-section{
+     flex:1;
+     border: 1px solid white;
+     padding: 23px;
+}
+
+.footer .footer-content h1{
+    color: rgb(167, 158, 158);
+}
+
+.footer .footer-content .about h1 span{
+    color:goldenrod;
+}
+
+.footer .footer-content .about .contact span{
+    display: block;
+    font-size:1em;
+    margin-bottom: 8px;
+}
+
+.footer .footer-content .connect .socials a{
+    border: 1px solid gray;
+    width: 43px;
+    height:40px;
+    display:inline-block;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-right: 5px:
+
+}
+
+.footer .footer-content .connect .socials a:hover{  
+    border: 1px red;
+    color:white;
+    display: flex;
+    transition: 0.3s;
+}
+
+.footer .footer-content .links ul a{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    color:rgb(219, 196, 166);
+}
+
+.footer .footer-content .links ul a:hover{
+    color:teal;
+    margin-left: 6px;
+    transition: 0.3s;
+
+}
+
